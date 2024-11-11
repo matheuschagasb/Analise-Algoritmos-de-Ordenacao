@@ -5,7 +5,7 @@ Análise com gráficos em Python de alguns algoritmos de ordenação implementad
 O projeto visa proporcionar uma experiência prática com algoritmos de ordenação, analisando tanto a teoria quanto o desempenho real dos algoritmos com diferentes tamanhos de dados.
 
 # Algoritmos Implementados
-* Selection Sort: Seleciona o menor elemento e o move para a posição correta a cada iteração.
+- Selection Sort: Seleciona o menor elemento e o move para a posição correta a cada iteração.
 - Insertion Sort: Constrói uma lista ordenada inserindo cada elemento na posição correta.
 - Bubble Sort: Compara e troca elementos adjacentes para ordenar a lista.
 - Merge Sort: Algoritmo eficiente que divide e conquista, com complexidade O(n log n).
