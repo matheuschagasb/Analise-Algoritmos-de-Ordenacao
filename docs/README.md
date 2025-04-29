@@ -23,8 +23,14 @@ Gráficos foram gerados com Python para ilustrar o tempo de execução de cada a
 
 # Como Rodar na sua IDE
 1. Baixe algum compilador de C na sua máquina, (ex: MinGW) - Repo para Instalação: https://github.com/danielpinto8zz6/c-cpp-compile-run/blob/HEAD/docs/COMPILER_SETUP.md#Windows
-2. No terminal digite "gcc .\src\sortingAlgorithms.c -o main" para compilar.
-3. E "&.\main.exe" para executar.
+3. No terminal digite para compilar:
+```bash
+  gcc .\src\sortingAlgorithms.c -o main
+```
+4. E para executar:
+```bash
+  &.\main.exe
+```
 
 # Autores
 
