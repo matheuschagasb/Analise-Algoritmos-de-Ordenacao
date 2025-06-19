@@ -6,15 +6,15 @@ This project performs a practical and visual analysis of the performance of diff
 Provide a practical experience with sorting algorithms, allowing you to compare the theory with the real performance of the algorithms on different data sizes.
 
 # Implemented Algorithms
-- Selection Sort: Selects the smallest element and moves it to the correct position at each iteration. 
+- Selection Sort: Selects the smallest element and moves it to the correct position at each iteration.<br>
 Complexity: O(n²)
-- Insertion Sort: Builds a sorted list by inserting each element in the correct position. 
+- Insertion Sort: Builds a sorted list by inserting each element in the correct position. <br>
 Complexity: O(n²) in the worst case, O(n) in the best case (almost sorted list)
-- Bubble Sort: Compares and swaps adjacent elements to sort the list. 
+- Bubble Sort: Compares and swaps adjacent elements to sort the list. <br>
 Complexity: O(n²) in the worst case, O(n) in the best case (sorted list)
-- Merge Sort: Efficient divide and conquer algorithm. Complexity: O(n log n) in all cases
-- Quick Sort: Divides the list with a pivot. Complexity: O(n log n) on average, O(n²) in the worst case (bad pivot choice)
-- Heap Sort: Uses a heap structure to sort the elements. Complexity: O(n log n) in all cases
+- Merge Sort: Efficient divide and conquer algorithm.<br> Complexity: O(n log n) in all cases
+- Quick Sort: Divides the list with a pivot.<br> Complexity: O(n log n) on average, O(n²) in the worst case (bad pivot choice)
+- Heap Sort: Uses a heap structure to sort the elements.<br> Complexity: O(n log n) in all cases
 
 ## Setup
 
@@ -49,11 +49,11 @@ After compiling, you can run the program with:
 The program will create the resultados.csv file with the execution times of each algorithm.
 
 Run the Python script to generate and view the graph:
-python python/generategraphs.py
+```python .\python\graphicsGenerator.py```
 
 The graph will be saved as grafico_ordenacao.png in the root of the project.
 
 # Notes
 
-The resultados.csv file is overwritten with each execution of the C program.
+The resultados.csv file is overwritten with each execution of the C program.<br>
 The Python script automatically reads the data from the CSV.
