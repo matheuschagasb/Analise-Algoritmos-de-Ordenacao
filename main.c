@@ -10,12 +10,15 @@ int main() {
     int tamanhos[] = {100, 1000, 10000, 50000, 100000};
     int num_tamanhos = 5;
 
+    printf("\nIniciando analise de desempenho dos algoritmos de ordenacao...\n");
+
     // Abre arquivo para salvar resultados
     FILE *fp = fopen("resultados.csv", "w");
     fprintf(fp, "Tamanho,Selection,Insertion,Bubble,Merge,Quick,Heap\n");
 
     for (int i = 0; i < num_tamanhos; i++) {
         int tamanho = tamanhos[i];
+
         int* arr_original = gerarArrayAleatorio(tamanho);
         int* arr;
         clock_t inicio, fim;
@@ -70,7 +73,7 @@ int main() {
     }
 
     fclose(fp);
-    printf("Resultados salvos em resultados.csv\n");
+    printf("\nAnalise concluida! Resultados salvos em resultados.csv\n\n");
     sleep(10);
     return 0;
 }
