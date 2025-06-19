@@ -43,4 +43,5 @@ plt.legend()
 plt.grid(True)
 plt.xscale("log")
 plt.yscale("log")
-plt.show()
+
+plt.savefig('grafico_ordenacao.png')
