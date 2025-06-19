@@ -1,4 +1,4 @@
-# Analise-Algoritmos-de-Ordenacao
+# Sorting Algorithm Analyzer
 Analysis with Python graphs of some sorting algorithms implemented in C.
 
 # Objective
