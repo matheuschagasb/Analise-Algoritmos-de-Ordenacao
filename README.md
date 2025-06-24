@@ -40,7 +40,7 @@ pip install -r requirements.txt
 # Compilation
 To compile the project, use the following command in the terminal:
 ```
-gcc src/main.c src/sorting_algorithms.c src/utils.c -o main
+gcc src/main.c src/sorting_algorithms.c src/utils.c -o sort
 ```
 # Usage
 
