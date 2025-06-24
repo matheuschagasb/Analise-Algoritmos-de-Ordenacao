@@ -6,7 +6,7 @@ import sys
 csv_path = 'resultados.csv'
 
 if not os.path.exists(csv_path):
-    print(f"\nArquivo '{csv_path}' não encontrado. Execute o programa C antes de rodar este script.")
+    print(f"\nArquivo '{csv_path}' não encontrado. Execute o programa C antes de rodar este script.\n")
     sys.exit(1)
 
 tamanhos = []
@@ -49,8 +49,8 @@ output_path = 'grafico_ordenacao.png'
 try:
     plt.savefig(output_path)
     if os.path.exists(output_path):
-        print(f"\nGráfico salvo com sucesso em '{output_path}'.")
+        print(f"\nGráfico salvo com sucesso em '{output_path}'.\n")
     else:
-        print(f"\nErro: o gráfico não foi salvo em '{output_path}'.")
+        print(f"\nErro: o gráfico não foi salvo em '{output_path}'.\n")
 except Exception as e:
-    print(f"\nOcorreu um erro ao salvar o gráfico: {e}")
+    print(f"\nOcorreu um erro ao salvar o gráfico: {e}\n")
