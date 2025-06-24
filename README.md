@@ -46,8 +46,8 @@ gcc src/main.c src/sorting_algorithms.c src/utils.c -o sort
 
 After compiling, you can run the program with:
 
- Windows:  ``` .\main.exe ```<br>
- Linux/macOS: ``` .\main ```
+ Windows:  ``` .\sort.exe ```<br>
+ Linux/macOS: ``` .\sort ```
 
 The program will create the resultados.csv file with the execution times of each algorithm.
 
