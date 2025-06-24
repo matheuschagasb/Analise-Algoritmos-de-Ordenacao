@@ -18,6 +18,9 @@ Complexity: O(n²) in the worst case, O(n) in the best case (sorted list)
 
 ## Setup
 
+Download and install a C compiler on your machine (for example, MinGW).
+You can follow the installation guide here: https://github.com/danielpinto8zz6/c-cpp-compile-run/blob/HEAD/docs/COMPILER_SETUP.md#Windows
+
 It is recommended to use a Python virtual environment to manage dependencies.  
 To create and activate a virtual environment, run:
 
@@ -36,7 +39,7 @@ pip install -r requirements.txt
 
 # Compilation
 To compile the project, use the following command in the terminal:
-```bash
+```
 gcc src/main.c src/sorting_algorithms.c src/utils.c -o main
 ```
 # Usage
@@ -49,11 +52,12 @@ After compiling, you can run the program with:
 The program will create the resultados.csv file with the execution times of each algorithm.
 
 Run the Python script to generate and view the graph:
-```python .\python\graphicsGenerator.py```
+```
+python .\python\graphicsGenerator.py
+```
 
 The graph will be saved as grafico_ordenacao.png in the root of the project.
 
 # Notes
 
 The resultados.csv file is overwritten with each execution of the C program.<br>
-The Python script automatically reads the data from the CSV.
