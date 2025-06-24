@@ -18,6 +18,9 @@ Complexity: O(n²) in the worst case, O(n) in the best case (sorted list)
 
 ## Setup
 
+Download and install a C compiler on your machine (for example, MinGW).
+You can follow the installation guide here: https://github.com/danielpinto8zz6/c-cpp-compile-run/blob/HEAD/docs/COMPILER_SETUP.md#Windows
+
 It is recommended to use a Python virtual environment to manage dependencies.  
 To create and activate a virtual environment, run:
 
